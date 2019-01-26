@@ -16,6 +16,11 @@ example 2 with addr2   :
 
 4508275421268901|09|22|927|Bonn|Appetit|Santiago Madrigal|esc. 7 1B|Salamanca|España|37003|
 
+Use Telegram Notification:
+1. Input your user id (chat_id) in script
+2. Add telegram @mkato_autopaybot 
+3. type /start  in to start the bot
+4. set true notiftotelegram
 
 Get Telegram User_ID :
 1. Add @get_id_bot
