@@ -26,3 +26,14 @@ Get Telegram User_ID :
 1. Add @get_id_bot
 2. type /start
 3. Copy your user id
+
+
+
+How to find item link:
+1. Open eBay.com
+2. Choose your item
+3. Open Network Tab by hit ctrl+shift+i on firefox / F12 on chrome
+4. Click Buy Now
+5. Click Guest Checkout
+6. Find rxgo? in network tab
+7. Copy Request_URL, this is the link
