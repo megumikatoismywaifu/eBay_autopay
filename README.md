@@ -35,5 +35,5 @@ How to find item link:
 3. Open Network Tab by hit ctrl+shift+i on firefox / F12 on chrome
 4. Click Buy Now
 5. Click Guest Checkout
-6. Find rxgo? in network tab
+6. Find rgxo? in network tab
 7. Copy Request_URL, this is the link
