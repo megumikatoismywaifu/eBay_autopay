@@ -198,8 +198,8 @@ class autoPay
 	    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 	    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 	    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-	    curl_setopt($ch, CURLOPT_COOKIEJAR, 'ebay_log/mkato_cookie.txt');
-	    curl_setopt($ch, CURLOPT_COOKIEFILE, getcwd() . 'ebay_log/mkato_cookie.txt');
+	    curl_setopt($ch, CURLOPT_COOKIEJAR, 'eBay_log/mkato_cookie.txt');
+	    curl_setopt($ch, CURLOPT_COOKIEFILE, getcwd() . 'eBay_log/mkato_cookie.txt');
 	    if ($post) {
 	        curl_setopt($ch, CURLOPT_POST, true);
 	        curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
