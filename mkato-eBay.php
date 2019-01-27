@@ -241,7 +241,7 @@ class autoPay
 					'IP : ' . $data->ip
 				);
 				$this->notification(implode(PHP_EOL, $notif));
-				$string = '[%d/%d] IP : %s - %s - SET SHIPPING [%s] - SET CARD [%s|%s] - STATUS [%s] ' . $this->color('greenbg', 'Confirmed') . ' | Confirmation send to %s' . PHP_EOL;
+				$string = '[%d/%d] IP : %s - %s - SET SHIPPING [%s] - SET CARD [%s|%s] - OUTPUT [%s] ' . $this->color('greenbg', 'Confirmed') . ' | Confirmation send to %s' . PHP_EOL;
 				$string = vsprintf($string, $format);
 				file_put_contents("eBay_log/success.txt", $this->formcc."| item: ".$this->itms['item']."| price: ".$this->itms['price'].PHP_EOL, FILE_APPEND);
 				if($this->autostop == true) {
