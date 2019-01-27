@@ -235,7 +235,7 @@ class autoPay
 			case 100:
 				$notif 	= array(
 					'<b>Confirmed</b>',
-					'Confirmation send to <b>' .  $this->shipping['email'] . '</b>',
+					'Confirmation send to <b>' .  $this->addrshipping['email'] . '</b>',
 					'(' . $this->no . '/' . $this->total . ')   <i>' . $card . '</i>',
 					'Using country : ' . $this->selected_country,
 					'IP : ' . $data->ip
