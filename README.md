@@ -6,7 +6,7 @@ How to use
 
 
 Card Format :
-ccnum|month|year|cvv|firstname|lastname|addr1|addr2|city|state|phone|
+ccnum|month|year|cvv|firstname|lastname|addr1|addr2|city|state|zip|
 
 example 1 without addr2: 
 
